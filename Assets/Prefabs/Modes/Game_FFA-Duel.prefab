@@ -1,0 +1,162 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &155358
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 487374}
+  - component: {fileID: 11415832}
+  - component: {fileID: 11460118}
+  m_Layer: 0
+  m_Name: Game_FFA-Duel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &487374
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 155358}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11415832
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 155358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 684e526c7772943739a52ecfb89b707d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  modeName: Duel
+  mode: 1
+  restartTime: 10
+  teams: 0
+  minPlayers: 2
+  maxPlayers: 4
+  scoreToWin: 10
+  displayPercentScore: 1
+  scoreMode: 2
+  scorePerRound: 0
+  penaltyPoints: -1
+  penaltyMultiplier: 0.75
+  multiKillThreshhold: 3
+  spreeThreshhold: 3
+  useRespawns: 1
+  respawnTime: 3
+  round: -1
+  roundState: 0
+  winners: []
+  freezeTimer: 0
+  freezeTime: 1.6
+  roundOver: 1
+  endSequenceInitiated: 0
+--- !u!114 &11460118
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 155358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1761e7790855437584d2aa8d17b9cef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shipType: {fileID: 114342902035790642, guid: f85f9d7693e73cb4290f6e0d5796ec09, type: 2}
+  autoAssignTeams: 1
+  autoTogglePlayers: 1
+  players:
+  - name: iop (Team 1)
+    index: 0
+    ship: {fileID: 0}
+    playerName: qew
+    color: 1
+    inUse: 1
+    control:
+      leftOarsKey: KeyCode.JoystickButton4
+      cannonKey: KeyCode.JoystickButton2
+      rightOarsKey: KeyCode.JoystickButton5
+      invertOars: 1
+      inputType: 1
+      controller: 1
+    team: 0
+    ignoreAutoToggle: 1
+  - name: zxc (Team 2)
+    index: 4
+    ship: {fileID: 0}
+    playerName: zxc
+    color: 13
+    inUse: 1
+    control:
+      leftOarsKey: KeyCode.Joystick2Button4
+      cannonKey: KeyCode.Joystick2Button2
+      rightOarsKey: KeyCode.Joystick2Button5
+      invertOars: 1
+      inputType: 1
+      controller: 2
+    team: 1
+    ignoreAutoToggle: 1
+  playerInfo:
+  - name: iop (0, CINNABAR)
+    order: 0
+    index: 0
+    score: 0
+    spree: 0
+    multikill: 0
+    lastKillTime: 0
+    volleys: 0
+    steals: 0
+    leaderKills: 0
+    multiKills: 0
+    longestSpree: 0
+    suicides: 0
+  - name: 
+    order: 0
+    index: 0
+    score: 0
+    spree: 0
+    multikill: 0
+    lastKillTime: 0
+    volleys: 0
+    steals: 0
+    leaderKills: 0
+    multiKills: 0
+    longestSpree: 0
+    suicides: 0
+  teamContainers:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  regenerate: 0
+  teamColors: 010000000d00000000000000000000000000000000000000
+  usageCache: 010000000100
+  colorCache: 01000000030000000f000000090000000d00000002000000
+  _setupComplete: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 155358}
+  m_IsPrefabParent: 1

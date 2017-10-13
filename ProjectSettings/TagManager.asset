@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Rowball
+  - Border
+  - Point
+  - Ship
+  - TerrainAffector
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - IgnoreRowball
+  - IgnoreCollide
+  m_SortingLayers:
+  - name: UI
+    uniqueID: 358856775
+    locked: 0
+  - name: WorldFX
+    uniqueID: 1873459361
+    locked: 0
+  - name: Oars
+    uniqueID: 1872513903
+    locked: 0
+  - name: Deck
+    uniqueID: 1467335903
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Point
+    uniqueID: 985039007
+    locked: 0
+  - name: Cannon
+    uniqueID: 2175563195
+    locked: 0
+  - name: Rowball
+    uniqueID: 4109026607
+    locked: 0
+  - name: FX
+    uniqueID: 3556314245
+    locked: 0

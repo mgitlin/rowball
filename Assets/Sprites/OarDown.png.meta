@@ -1,0 +1,271 @@
+fileFormatVersion: 2
+guid: 9bae680d3cba64ac6867e0e14f96fc81
+timeCreated: 1462311696
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: OarDown_0
+    21300002: OarDown_1
+    21300004: OarDown_2
+    21300006: OarDown_3
+    21300008: OarDown_4
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 34
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: OarDown_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1454
+        width: 730
+        height: 594
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -78, y: 120}
+        - {x: -75, y: 147}
+        - {x: -91, y: 188}
+        - {x: -102, y: 226}
+        - {x: -148, y: 246}
+        - {x: -138, y: 270}
+        - {x: -142, y: 288}
+        - {x: -157, y: 297}
+        - {x: -201, y: 297}
+        - {x: -226, y: 289}
+        - {x: -268, y: 249}
+        - {x: -282, y: 224}
+        - {x: -307, y: 171}
+        - {x: -317, y: 119}
+        - {x: -317, y: 75}
+        - {x: -315, y: 59}
+        - {x: -305, y: 37}
+        - {x: -277, y: 10}
+        - {x: -260, y: 4}
+        - {x: -227, y: 1}
+        - {x: -198, y: 9}
+        - {x: -130, y: 35}
+        - {x: -101, y: 59}
+        - {x: 167, y: -40}
+        - {x: 198, y: -40}
+        - {x: 214, y: -22}
+        - {x: 214, y: -3}
+        - {x: 197, y: 17}
+    - name: OarDown_1
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 1454
+        width: 730
+        height: 594
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 172, y: -30}
+        - {x: 188, y: -35}
+        - {x: 218, y: -11}
+        - {x: 218, y: 13}
+        - {x: 217, y: 17}
+        - {x: 193, y: 34}
+        - {x: -89, y: 70}
+        - {x: -99, y: 96}
+        - {x: -132, y: 177}
+        - {x: -181, y: 167}
+        - {x: -154, y: 212}
+        - {x: -154, y: 254}
+        - {x: -173, y: 266}
+        - {x: -199, y: 266}
+        - {x: -238, y: 242}
+        - {x: -269, y: 209}
+        - {x: -299, y: 163}
+        - {x: -312, y: 130}
+        - {x: -314, y: 95}
+        - {x: -314, y: 21}
+        - {x: -313, y: 12}
+        - {x: -301, y: -34}
+        - {x: -296, y: -52}
+        - {x: -267, y: -73}
+        - {x: -225, y: -73}
+        - {x: -217, y: -71}
+        - {x: -158, y: -43}
+        - {x: -107, y: -4}
+        - {x: -105, y: 10}
+    - name: OarDown_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 860
+        width: 730
+        height: 594
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -100, y: -39}
+        - {x: 191, y: -21}
+        - {x: 217, y: -3}
+        - {x: 218, y: 5}
+        - {x: 218, y: 25}
+        - {x: 210, y: 36}
+        - {x: 194, y: 43}
+        - {x: 5, y: 32}
+        - {x: -79, y: 24}
+        - {x: -105, y: 35}
+        - {x: -144, y: 114}
+        - {x: -165, y: 128}
+        - {x: -184, y: 127}
+        - {x: -229, y: 89}
+        - {x: -222, y: 107}
+        - {x: -179, y: 192}
+        - {x: -196, y: 207}
+        - {x: -229, y: 207}
+        - {x: -262, y: 189}
+        - {x: -279, y: 172}
+        - {x: -307, y: 118}
+        - {x: -320, y: 69}
+        - {x: -328, y: 13}
+        - {x: -328, y: -51}
+        - {x: -327, y: -74}
+        - {x: -308, y: -127}
+        - {x: -270, y: -160}
+        - {x: -262, y: -161}
+        - {x: -213, y: -161}
+        - {x: -195, y: -150}
+        - {x: -176, y: -141}
+        - {x: -107, y: -64}
+    - name: OarDown_3
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 860
+        width: 730
+        height: 594
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -87, y: -102}
+        - {x: -85, y: -85}
+        - {x: 199, y: -26}
+        - {x: 216, y: 4}
+        - {x: 216, y: 41}
+        - {x: 213, y: 43}
+        - {x: 178, y: 51}
+        - {x: -102, y: -25}
+        - {x: -106, y: -13}
+        - {x: -127, y: 8}
+        - {x: -184, y: -4}
+        - {x: -203, y: 19}
+        - {x: -242, y: 30}
+        - {x: -291, y: 26}
+        - {x: -251, y: 38}
+        - {x: -227, y: 56}
+        - {x: -209, y: 85}
+        - {x: -219, y: 138}
+        - {x: -234, y: 145}
+        - {x: -259, y: 145}
+        - {x: -270, y: 143}
+        - {x: -292, y: 134}
+        - {x: -348, y: 73}
+        - {x: -354, y: 20}
+        - {x: -354, y: -63}
+        - {x: -347, y: -97}
+        - {x: -309, y: -181}
+        - {x: -268, y: -220}
+        - {x: -251, y: -222}
+        - {x: -220, y: -222}
+        - {x: -202, y: -214}
+        - {x: -174, y: -182}
+        - {x: -114, y: -150}
+    - name: OarDown_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 266
+        width: 730
+        height: 594
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -68, y: -162}
+        - {x: -50, y: -123}
+        - {x: 196, y: -8}
+        - {x: 211, y: -1}
+        - {x: 213, y: 8}
+        - {x: 213, y: 46}
+        - {x: 202, y: 51}
+        - {x: 171, y: 51}
+        - {x: -94, y: -68}
+        - {x: -116, y: -47}
+        - {x: -170, y: -54}
+        - {x: -231, y: -16}
+        - {x: -258, y: -13}
+        - {x: -307, y: -62}
+        - {x: -307, y: -158}
+        - {x: -303, y: -198}
+        - {x: -273, y: -246}
+        - {x: -250, y: -277}
+        - {x: -225, y: -281}
+        - {x: -151, y: -281}
+        - {x: -138, y: -265}
+        - {x: -85, y: -204}
+        - {x: -71, y: -179}
+      - - {x: -280, y: 63}
+        - {x: -297, y: 46}
+        - {x: -297, y: -22}
+        - {x: -296, y: -24}
+        - {x: -233, y: -24}
+        - {x: -205, y: -16}
+        - {x: -192, y: 7}
+        - {x: -192, y: 56}
+        - {x: -205, y: 63}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

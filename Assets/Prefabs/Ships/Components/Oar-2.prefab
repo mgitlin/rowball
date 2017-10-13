@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &187910
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 490790}
+  - component: {fileID: 11482120}
+  - component: {fileID: 21240754}
+  - component: {fileID: 11408272}
+  m_Layer: 0
+  m_Name: Oar-2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &490790
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 187910}
+  m_LocalRotation: {x: 0, y: 0, z: 0.00000032584137, w: -1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11408272
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 187910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c07451c9daac140adb45033f94af961d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  states:
+  - name: Default
+    target: 
+    loop: 0
+    play: 0
+    fps: 60
+    frames:
+    - {fileID: 21300000, guid: ea10107b1e5f648ea992879b3b58c5d9, type: 3}
+    - {fileID: 21300008, guid: 9bae680d3cba64ac6867e0e14f96fc81, type: 3}
+    - {fileID: 21300006, guid: 9bae680d3cba64ac6867e0e14f96fc81, type: 3}
+    - {fileID: 21300004, guid: 9bae680d3cba64ac6867e0e14f96fc81, type: 3}
+    - {fileID: 21300002, guid: 9bae680d3cba64ac6867e0e14f96fc81, type: 3}
+    - {fileID: 21300000, guid: 9bae680d3cba64ac6867e0e14f96fc81, type: 3}
+    - {fileID: 21300000, guid: 9bae680d3cba64ac6867e0e14f96fc81, type: 3}
+    randomOffset: 0
+    frame: 0
+    offset: 0
+  - name: Paddle
+    target: Default
+    loop: 0
+    play: 1
+    fps: 45
+    frames:
+    - {fileID: 21300002, guid: 9bae680d3cba64ac6867e0e14f96fc81, type: 3}
+    - {fileID: 21300004, guid: 9bae680d3cba64ac6867e0e14f96fc81, type: 3}
+    - {fileID: 21300006, guid: 9bae680d3cba64ac6867e0e14f96fc81, type: 3}
+    - {fileID: 21300008, guid: 9bae680d3cba64ac6867e0e14f96fc81, type: 3}
+    - {fileID: 21300000, guid: ea10107b1e5f648ea992879b3b58c5d9, type: 3}
+    randomOffset: 0
+    frame: 0
+    offset: 0
+  startingState: Default
+  state: 
+  currentFrame: 0
+--- !u!114 &11482120
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 187910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf1f0ec3a059b42979e880c6e8386688, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  renderMode: 2
+  tapAnimation: 0
+  animationFudge: 0.05
+  load: 0
+  range: {x: 0, y: 0}
+  length: 0
+  offset: 0
+  left: 1
+  damping: 21
+  heading: {x: 0, y: 0, z: 0}
+--- !u!212 &21240754
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 187910}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 2100000, guid: f2b02230e7afc4d9396347d84d77d994, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 1872513903
+  m_SortingLayer: -2
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: be0c1b952dc6842b5a03125183af4c13, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 187910}
+  m_IsPrefabParent: 1

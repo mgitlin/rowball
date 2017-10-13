@@ -1,0 +1,246 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000010967896998}
+  m_IsPrefabParent: 1
+--- !u!1 &1000010967896998
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000010362521516}
+  - 114: {fileID: 114000010966192590}
+  - 114: {fileID: 114000012445720064}
+  m_Layer: 0
+  m_Name: Game_FFA_Controllers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000010362521516
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010967896998}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114000010966192590
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010967896998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 684e526c7772943739a52ecfb89b707d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mode: 1
+  maps: []
+  restartTime: 10
+  teams: 0
+  minPlayers: 2
+  maxPlayers: 4
+  scoreToWin: 20
+  displayPercentScore: 1
+  scoreMode: 2
+  scorePerRound: 0
+  penaltyPoints: -1
+  penaltyMultiplier: 0.75
+  multiKillThreshhold: 3
+  spreeThreshhold: 3
+  useRespawns: 1
+  respawnTime: 3
+  round: -1
+  roundState: 0
+  winners: []
+  freezeTimer: 0
+  freezeTime: 1.6
+  roundOver: 1
+  endSequenceInitiated: 0
+--- !u!114 &114000012445720064
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010967896998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1761e7790855437584d2aa8d17b9cef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shipType: {fileID: 11411384, guid: d20fd825fa668408daa6567fa143a0b6, type: 2}
+  autoAssignTeams: 1
+  autoTogglePlayers: 1
+  players:
+  - name: iop (Team 1)
+    index: 0
+    ship: {fileID: 0}
+    playerName: iop
+    color: 1
+    inUse: 1
+    control:
+      leftOars: i
+      cannon: o
+      rightOars: p
+      invertOars: 0
+      inputType: 1
+      joystick: 1
+    team: 0
+    ignoreAutoToggle: 1
+  - name: qwe (Team 2)
+    index: 1
+    ship: {fileID: 0}
+    playerName: qwe
+    color: 15
+    inUse: 1
+    control:
+      leftOars: q
+      cannon: w
+      rightOars: e
+      invertOars: 0
+      inputType: 1
+      joystick: 2
+    team: 1
+    ignoreAutoToggle: 0
+  - name: bnm (Team 3)
+    index: 2
+    ship: {fileID: 0}
+    playerName: bnm
+    color: 9
+    inUse: 1
+    control:
+      leftOars: b
+      cannon: n
+      rightOars: m
+      invertOars: 0
+      inputType: 1
+      joystick: 3
+    team: 2
+    ignoreAutoToggle: 0
+  - name: zxc (Team 4)
+    index: 3
+    ship: {fileID: 0}
+    playerName: zxc
+    color: 13
+    inUse: 1
+    control:
+      leftOars: z
+      cannon: x
+      rightOars: c
+      invertOars: 0
+      inputType: 1
+      joystick: 4
+    team: 3
+    ignoreAutoToggle: 1
+  - name: '[Disabled]'
+    index: 4
+    ship: {fileID: 0}
+    playerName: Aaron
+    color: 3
+    inUse: 0
+    control:
+      leftOars: 1
+      cannon: s
+      rightOars: v
+      invertOars: 0
+      inputType: 0
+      joystick: 1
+    team: 4
+    ignoreAutoToggle: 1
+  playerInfo:
+  - name: 
+    order: 0
+    index: 0
+    score: 0
+    spree: 0
+    multikill: 0
+    lastKillTime: 0
+    volleys: 0
+    steals: 0
+    leaderKills: 0
+    multiKills: 0
+    longestSpree: 0
+    suicides: 0
+  - name: 
+    order: 0
+    index: 0
+    score: 0
+    spree: 0
+    multikill: 0
+    lastKillTime: 0
+    volleys: 0
+    steals: 0
+    leaderKills: 0
+    multiKills: 0
+    longestSpree: 0
+    suicides: 0
+  - name: 
+    order: 0
+    index: 0
+    score: 0
+    spree: 0
+    multikill: 0
+    lastKillTime: 0
+    volleys: 0
+    steals: 0
+    leaderKills: 0
+    multiKills: 0
+    longestSpree: 0
+    suicides: 0
+  - name: 
+    order: 0
+    index: 0
+    score: 0
+    spree: 0
+    multikill: 0
+    lastKillTime: 0
+    volleys: 0
+    steals: 0
+    leaderKills: 0
+    multiKills: 0
+    longestSpree: 0
+    suicides: 0
+  - name: 
+    order: 0
+    index: 0
+    score: 0
+    spree: 0
+    multikill: 0
+    lastKillTime: 0
+    volleys: 0
+    steals: 0
+    leaderKills: 0
+    multiKills: 0
+    longestSpree: 0
+    suicides: 0
+  teamContainers:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  regenerate: 1
+  teamColors: 0000000000000000000000000000000000000000
+  usageCache: 0000000000
+  colorCache: 0000000000000000000000000000000000000000
+  _setupComplete: 0

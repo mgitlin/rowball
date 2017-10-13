@@ -1,0 +1,205 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &179228
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 473492}
+  - component: {fileID: 11443008}
+  m_Layer: 0
+  m_Name: Testing5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &473492
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 179228}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11443008
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 179228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc5dbb83f0b824b60aea5212ad1622c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controlType: 1
+  oarSpeed: 7
+  cannonSpeed: 0.4
+  oarFalloff:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0.050520055
+      inSlope: 0.28017142
+      outSlope: 0.28017142
+      tangentMode: 34
+    - serializedVersion: 2
+      time: 0.9002073
+      value: 0.3027324
+      inSlope: 0.28017142
+      outSlope: 6.987159
+      tangentMode: 69
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 6.987159
+      outSlope: Infinity
+      tangentMode: 101
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  oarVisualFalloff:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 2.6739128
+      outSlope: 2.6739128
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  cannonFalloff:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 2.6168447
+      outSlope: 2.6168447
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  oarStrength: 1500
+  turnBoost: 0.15
+  turnBoostLimit: 0.03
+  pivotBoost: 0
+  dashBoost: 0
+  inputDecay: 6
+  inputCooldown: 1
+  firepower: 9000
+  recoil: 1550
+  minCharge: 0.1
+  angularDrag: {x: 1, y: 8}
+  dragFalloff:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0.5000041
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 4.1878467
+      outSlope: 4.1878467
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  speedFactorRange: {x: 0, y: 1}
+  speedFactor:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  brakeFactor: 12
+  dryFire: 0.5
+  forcePushRadius: 54
+  pushForce: 3000
+  forcePushCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  rowballOffset: 14
+  chargeLevels: {x: 0.4, y: 0.65}
+  spinBound: 116
+  volleyWidth: 0.6
+  volleyLength: 0.6
+  volleySpeed: 1.05
+  stuckMudDuration: 0
+  freezeShipDuration: 2
+  cannonMaxChargeDuration: 3
+  pickupReload: 0.3
+  rowballSpriteDamping: 30
+  maxVertices: 9
+  randomSize: {x: 11, y: 32}
+  simplePolygon: 1
+  vertexCenterOffset: 0.65
+  minVertexDistance: 0.65
+  collinearFudge: 0.4
+  segmentFudge: 0.3
+  dropIterations: 16384
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 179228}
+  m_IsPrefabParent: 1

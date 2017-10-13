@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &114938
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 464882}
+  - component: {fileID: 11497022}
+  m_Layer: 0
+  m_Name: World_Main-Duel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &464882
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 114938}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11497022
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 114938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 480c0bde5246b774a80d63579cc2a859, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _boundsContainer: {fileID: 0}
+  _breakableContainer: {fileID: 0}
+  _terrainContainer: {fileID: 0}
+  _goalContainer: {fileID: 0}
+  _terrainAffectorContainer: {fileID: 0}
+  _rowballSpawnerContainer: {fileID: 0}
+  mapName: Shore
+  preview: {fileID: 0}
+  boundsColor: {r: 1, g: 0, b: 0, a: 0}
+  boundsCamera: {fileID: 0}
+  startingZoom: 94
+  lineRenderer: {fileID: 12014470, guid: 086c366b11f3c1e45ab4323ab9926220, type: 2}
+  worldBounds: {x: 150, y: 50}
+  boundsOffset: 0
+  boundVertices:
+  - {x: -226.11461, y: 119}
+  - {x: 226.11461, y: 119}
+  - {x: 226.11461, y: -119}
+  - {x: -226.11461, y: -119}
+  _boundsLRCache:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  _setupComplete: 0
+  defaultBreakable: {fileID: 121654, guid: 38599af2f259344c783356fd67a7cdf1, type: 2}
+  defaultTerrain: {fileID: 128724, guid: 2f6a622e2f3744a43ad81b58153ff931, type: 2}
+  defaultRowballSpawner: {fileID: 178068, guid: 0182692bb636143148c199d3353155f7,
+    type: 2}
+  defaultGoal: {fileID: 180616, guid: 76d53b29f95d2014c8473e06edd45088, type: 2}
+  defaultTerrainAffector: {fileID: 159780, guid: 3e775e21a4f2a40c5b2fe15d8293d82c,
+    type: 2}
+  breakableColor: {r: 1, g: 1, b: 1, a: 1}
+  terrainColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+  generatePositions: 0
+  generateOffset: 32
+  worldObjects:
+  - name: 
+    worldObject: {fileID: 199190, guid: fe7d380d93da0a547a2414e09588fa9f, type: 2}
+    ignore: 1
+    isStatic: 1
+    isTerrainAffector: 0
+    isRowballSpawner: 0
+    spawnPosition: {x: 0, y: 0}
+  - name: 
+    worldObject: {fileID: 178068, guid: 0182692bb636143148c199d3353155f7, type: 2}
+    ignore: 0
+    isStatic: 1
+    isTerrainAffector: 0
+    isRowballSpawner: 1
+    spawnPosition: {x: 64, y: 0}
+  - name: 
+    worldObject: {fileID: 178068, guid: 0182692bb636143148c199d3353155f7, type: 2}
+    ignore: 0
+    isStatic: 1
+    isTerrainAffector: 0
+    isRowballSpawner: 1
+    spawnPosition: {x: -64, y: 0}
+  - name: 
+    worldObject: {fileID: 159780, guid: c339d5f5070544914b8a830319453116, type: 2}
+    ignore: 0
+    isStatic: 0
+    isTerrainAffector: 1
+    isRowballSpawner: 0
+    spawnPosition: {x: 150, y: -50}
+  - name: 
+    worldObject: {fileID: 159780, guid: 932cea954b1d843ef978638a205969e3, type: 2}
+    ignore: 0
+    isStatic: 0
+    isTerrainAffector: 1
+    isRowballSpawner: 0
+    spawnPosition: {x: -150, y: 50}
+  - name: 
+    worldObject: {fileID: 159780, guid: 412e1da1554af438da9c6e2f4869b64a, type: 2}
+    ignore: 0
+    isStatic: 0
+    isTerrainAffector: 1
+    isRowballSpawner: 0
+    spawnPosition: {x: -350, y: 0}
+  - name: 
+    worldObject: {fileID: 159780, guid: 906079e58bbe04576843e8b41e29bcdc, type: 2}
+    ignore: 0
+    isStatic: 0
+    isTerrainAffector: 1
+    isRowballSpawner: 0
+    spawnPosition: {x: 350, y: 0}
+  goals: []
+  goalSpawnPositions:
+  - {x: -256, y: 0}
+  - {x: 256, y: 0}
+  generateSpawnPoints: 0
+  spawnPointOffset: 240
+  spawnPoints:
+  - {x: -170, y: -100}
+  - {x: 170, y: 100}
+  objectCache:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  regenerate: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 114938}
+  m_IsPrefabParent: 1
